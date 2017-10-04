@@ -1,0 +1,91 @@
+/*NEWS PAGE */
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+.top_news_item {
+  position: relative; }
+  .top_news_item .img_container {
+    overflow: hidden; }
+    .top_news_item .img_container img {
+      width: 100%;
+      display: block; }
+    .top_news_item .img_container .date_news {
+      background-color: rgba(36, 46, 55, 0.5);
+      padding: 8px 15px;
+      position: absolute;
+      right: 0;
+      color: #fff;
+      top: 0; }
+  .top_news_item .text_container {
+    padding-left: 25px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding-top: 5px; }
+  .top_news_item .title_container {
+    background-color: #3a4a59;
+    padding: 10px 50px 10px 25px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 395px;
+    line-height: 1.5;
+    font-family: "MyriadProBold"; }
+
+.main_news_item {
+  position: relative;
+  margin-top: 35px; }
+  .main_news_item .img_container {
+    overflow: hidden;
+    height: 200px; }
+    .main_news_item .img_container img {
+      width: 100%;
+      display: block; }
+    .main_news_item .img_container .date_news {
+      background-color: rgba(36, 46, 55, 0.5);
+      padding: 8px 15px;
+      position: absolute;
+      right: 0;
+      color: #fff;
+      top: 0; }
+  .main_news_item .text_container {
+    padding-left: 25px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding-top: 5px; }
+    .main_news_item .text_container p {
+      margin-top: 0; }
+  .main_news_item .title_container {
+    background-color: #3a4a59;
+    padding: 10px 50px 10px 25px;
+    position: absolute;
+    right: 15%;
+    bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "MyriadProBold";
+    line-height: 1.5; }
+
+/*END NEWS PAGE */
+
+/*# sourceMappingURL=news.css.map */

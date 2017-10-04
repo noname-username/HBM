@@ -1,0 +1,106 @@
+/*PARTNERS PAGE */
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before, .partner_levels .partner_level_item .level_item_title .number_level, .partner_levels .partner_level_item .level_item_title .title_level, .partner_levels .partner_level_item .level_item_listlevel ul li, .partner_levels .partner_level_item .level_item_listlevel ul li .color_block, .partner_levels .partner_level_item .level_item_listlevel ul li span, .partner_levels .partner_level_item .level_item_listlevel ul li .precent_block {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+.partner_levels .partner_level_item {
+  padding: 35px 0;
+  box-shadow: 0px 6px 10px rgba(171, 171, 171, 0.35); }
+  .partner_levels .partner_level_item .level_item_title {
+    font-size: 25px; }
+    .partner_levels .partner_level_item .level_item_title .number_level {
+      border-radius: 7px;
+      background-color: #36953a; }
+      .partner_levels .partner_level_item .level_item_title .number_level span {
+        color: #fff;
+        padding: 10px;
+        display: block;
+        line-height: 1; }
+    .partner_levels .partner_level_item .level_item_title .title_level {
+      color: #36953a;
+      text-transform: uppercase;
+      margin-left: 10px; }
+  .partner_levels .partner_level_item .level_item_description {
+    font-size: 12px;
+    padding-right: 25px; }
+  .partner_levels .partner_level_item .level_item_condition {
+    text-transform: uppercase;
+    background-color: #eff4f7; }
+    .partner_levels .partner_level_item .level_item_condition .block_cond {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 20px 30px;
+      background-color: #eff4f7;
+      font-size: 13px;
+      height: 79px;
+      line-height: 1.2;
+      box-shadow: 2px 2px 2px rgba(105, 105, 105, 0.18), 0px 8px 17px rgba(105, 105, 105, 0.18);
+      margin-right: -4px;
+      position: relative;
+      color: #8f8f8f; }
+      .partner_levels .partner_level_item .level_item_condition .block_cond span {
+        display: block;
+        color: #36953a;
+        font-family: "MyriadProBold";
+        font-size: 20px; }
+    .partner_levels .partner_level_item .level_item_condition .first_block_cond {
+      text-align: right;
+      z-index: 12; }
+    .partner_levels .partner_level_item .level_item_condition .second_block_cond {
+      padding-left: 75px;
+      background-image: url(../img/hand_icon.png);
+      background-repeat: no-repeat;
+      background-position: 25px center;
+      z-index: 11; }
+    .partner_levels .partner_level_item .level_item_condition .third_block_cond {
+      padding-left: 75px;
+      background-image: url(../img/form_icon.png);
+      background-repeat: no-repeat;
+      background-position: 25px center;
+      z-index: 10; }
+  .partner_levels .partner_level_item .level_item_listlevel {
+    margin-top: 20px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    line-height: 1.1; }
+    .partner_levels .partner_level_item .level_item_listlevel ul li {
+      margin-right: 20px; }
+      .partner_levels .partner_level_item .level_item_listlevel ul li .color_block {
+        width: 25px;
+        height: 16px;
+        border-radius: 3px;
+        margin-right: 5px; }
+      .partner_levels .partner_level_item .level_item_listlevel ul li .precent_block {
+        margin-left: 5px;
+        background-color: #dde4e9;
+        border-radius: 3px;
+        padding: 5px 12px; }
+      .partner_levels .partner_level_item .level_item_listlevel ul li .first_level.color_block {
+        background-color: #36953a; }
+      .partner_levels .partner_level_item .level_item_listlevel ul li .second_level.color_block {
+        background-color: #242e37; }
+      .partner_levels .partner_level_item .level_item_listlevel ul li .third_block.color_block {
+        background-color: #d0322a; }
+
+.partners_text {
+  margin-top: 25px; }
+
+/*PARTNERS PAGE */
+
+/*# sourceMappingURL=partners.css.map */

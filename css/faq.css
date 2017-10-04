@@ -1,0 +1,91 @@
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+.faq_page .reactTabWidget {
+  color: #676767; }
+  .faq_page .reactTabWidget .react_TabWidget .tabs {
+    margin-bottom: 25px; }
+    .faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem {
+      display: inline-block;
+      max-width: 12.5%;
+      padding: 0 20px;
+      text-align: left;
+      border-bottom: 5px solid #e2e9ef;
+      transition: background 0.2s ease, box-shadow 0.2s ease;
+      margin-bottom: 5px;
+      cursor: pointer; }
+      .faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 18px;
+        margin: 15px 0; }
+      .faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem:hover {
+        background: linear-gradient(to top, #eef3f7 50%, transparent 94%);
+        box-shadow: 0px 7px 22px -8px rgba(0, 0, 0, 0.3);
+        border-bottom: 10px solid #eef3f7;
+        margin-bottom: 0; }
+    .faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem.selected {
+      border-bottom: 5px solid #36953a; }
+  .faq_page .reactTabWidget .react_TabWidget ul li .toggle_trigger {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.2); }
+  .faq_page .reactTabWidget .react_TabWidget ul li .toggle_trigger.closed {
+    background-color: #eef3f7;
+    background-image: url(../img/plusIcon.png);
+    background-position: 10px 11px; }
+    .faq_page .reactTabWidget .react_TabWidget ul li .toggle_trigger.closed:hover {
+      background-color: #36953a;
+      background-image: url(../img/plusIconHovered.png); }
+  .faq_page .reactTabWidget .react_TabWidget ul li .toggle_trigger.opened {
+    background-color: #d0322a;
+    background-image: url(../img/minusIcon.png);
+    background-position: 10px 16px; }
+  .faq_page .reactTabWidget .react_TabWidget ul li .toggle-item-caption {
+    line-height: 36px;
+    vertical-align: top;
+    padding-left: 15px; }
+  .faq_page .reactTabWidget .react_TabWidget ul li div {
+    font-size: 12px;
+    background-color: #e2e9ef;
+    margin-left: 51px;
+    margin-bottom: 10px;
+    padding: 15px; }
+    .faq_page .reactTabWidget .react_TabWidget ul li div p:first-child {
+      margin-top: 0; }
+    .faq_page .reactTabWidget .react_TabWidget ul li div p:last-child {
+      margin-bottom: 0; }
+  .faq_page .reactTabWidget .react_TabWidget ul li div.opened {
+    opacity: 1;
+    visibility: visible;
+    max-height: 300px; }
+  .faq_page .reactTabWidget .react_TabWidget ul li div.closed {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0px;
+    padding: 0;
+    margin: 0; }
+    .faq_page .reactTabWidget .react_TabWidget ul li div.closed p {
+      margin: 0; }
+
+/*# sourceMappingURL=faq.css.map */
